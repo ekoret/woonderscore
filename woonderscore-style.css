@@ -1,0 +1,64 @@
+*,
+p {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+body {
+	background: #444;
+	color: #fff;
+}
+
+body header#masthead {
+	background: #222;
+	display: flex;
+	color: #fff;
+	padding: 30px 24px;
+}
+
+body header#masthead .site-branding {
+	min-width: 350px;
+}
+
+body header#masthead .site-branding .site-title {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+body header#masthead #site-navigation {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+body header#masthead #site-navigation #primary-menu {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+body header#masthead #site-navigation #primary-menu .nav-menu li {
+	margin-right: 1.5rem;
+}
+
+body main#primary {
+	text-align: center;
+	max-width: 1000px !important;
+	margin: auto;
+}
+
+body footer#colophon {
+	background: #222;
+	padding: 1rem;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+/*# sourceMappingURL=woonderscore-style.css.map */
